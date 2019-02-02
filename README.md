@@ -80,6 +80,7 @@ To install all packages from the grid map library as Debian packages use
 The *grid_map_core* package depends only on the linear algebra library [Eigen].
 
     sudo apt-get install libeigen3-dev
+    sudo apt-get isntall ros-kinetic-nvigation
 
 The other packages depend additionally on the [ROS] standard installation (*roscpp*, *tf*, *filters*, *sensor_msgs*, *nav_msgs*, and *cv_bridge*). Other format specific conversion packages (e.g. *grid_map_cv*, *grid_map_pcl* etc.) depend on packages described below in *Packages Overview*.
 
