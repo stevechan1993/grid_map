@@ -83,7 +83,7 @@ The *grid_map_core* package depends only on the linear algebra library [Eigen].
     #for ros kinetic
     sudo apt-get isntall ros-kinetic-nvigation
     #for ros indigo 
-    sudo apt-get install ros-indigo-nvigation ros-indigo-octomap-msgs ros-indigo-octomap-ros
+    sudo apt-get install ros-indigo-navigation ros-indigo-octomap-msgs ros-indigo-octomap-ros
 The other packages depend additionally on the [ROS] standard installation (*roscpp*, *tf*, *filters*, *sensor_msgs*, *nav_msgs*, and *cv_bridge*). Other format specific conversion packages (e.g. *grid_map_cv*, *grid_map_pcl* etc.) depend on packages described below in *Packages Overview*.
 
 #### Building
